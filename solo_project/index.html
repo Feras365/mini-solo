@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Metric/Imperial Unit Conversion</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- TOP SECTION -->
+    <div class="top-section">
+
+      <div class="title-box">
+        <h1 id="main-title">Metric/Imperial Unit Conversion</h1>
+      </div>
+
+      <div class="input-wrapper">
+        <input
+          type="number"
+          id="user-input"
+          class="input-box"/>
+      </div>
+
+      <div class="button-wrapper">
+        <button id="convert-btn">Convert</button>
+      </div>
+
+    </div>
+
+    <!-- BOTTOM SECTION -->
+    <div class="results-section">
+
+      <!-- LENGTH -->
+      <div class="conversion-card" id="length-card">
+
+        <div class="card-title">
+          <h2>Length (Meter/Feet)</h2>
+        </div>
+
+        <div class="card-result" id="length-result">
+        </div>
+
+      </div>
+
+      <!-- VOLUME -->
+      <div class="conversion-card" id="volume-card">
+
+        <div class="card-title">
+          <h2>Volume (Liters/Gallons)</h2>
+        </div>
+
+        <div class="card-result" id="volume-result">
+         
+        </div>
+
+      </div>
+
+      <!-- MASS -->
+      <div class="conversion-card" id="mass-card">
+
+        <div class="card-title">
+          <h2>Mass (Kilograms/Pounds)</h2>
+        </div>
+
+        <div class="card-result" id="mass-result">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
